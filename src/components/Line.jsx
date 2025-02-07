@@ -7,6 +7,8 @@ export const LineGraph = () =>{
     const options = {}
 
     return <>
+    <div style={{height:"200px",width:"400px"}}>
     <Line  data={lineChartData} ></Line> 
+    </div>
     </>
 }
